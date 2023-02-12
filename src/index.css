@@ -23,14 +23,14 @@ h2 {
     color: rgb(255,255,255);
     text-transform: uppercase;
     font-size: 15px;
-    background: linear-gradient(45deg, rgb(254, 48, 114), rgb(255, 89, 64));
+    background: linear-gradient(45deg, #4245c4, #4a55b8 );
     padding: 12px 30px;
     border-radius: 30px;
     border: none;
 }
 
 .primary-button:hover {
-    background: linear-gradient(260deg, rgb(254, 48, 114), rgb(255, 89, 64));
+    background: linear-gradient(260deg, #4a55b8, #4245c4);
 }
 
 .secondary-button {
@@ -60,7 +60,7 @@ nav {
 }
 
 nav .nav-button {
-    color: rgb(254, 48, 114);
+    color: #4a55b8;
     background-color: rgb(255, 255, 255);
     font-size: 20px;
     padding: 10px 20px;
@@ -71,7 +71,7 @@ nav .nav-button {
 
 nav .nav-button:disabled {
     background-color: rgb(181, 180, 180);
-    color: rgb(189, 42, 90);
+    color: #4a55b8;
 }
 
 nav .logo-container {
@@ -258,7 +258,7 @@ nav .logo-container .logo {
 }
 
 .chat-container .chat-container-header {
-    background: linear-gradient(45deg, rgb(254, 48, 114), rgb(255, 89, 64));
+    background: linear-gradient(45deg, #4a55b8, #4245c4);
     height: 100px;
     display: flex;
     justify-content: space-between;
